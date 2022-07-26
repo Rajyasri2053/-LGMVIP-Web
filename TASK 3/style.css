@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+    padding: 2px;
+}
+
+.form{
+    width: 50%;
+    margin: 0 10em 10em 10em;
+    padding: 1em;
+}
+
+.Student{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2em;
+}
+
+.line {
+    border: 1px solid rgb(199, 112, 7);
+    padding: 0;
+}
+
+input[type=text], input[type=number] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  border-radius: 1em;
+  background: #8d9b60;
+}
+
+input[type=text]:focus, input[type=number]:focus {
+  background-color: rgb(188, 64, 64);
+  outline: none;
+}
+
+
+hr {
+  border: 1px solid #144f80;
+  margin: 25px;
+}
+
+table{
+    width: 100%;
+}
+table th{
+    background-color: rgb(99, 51, 99);
+    color: rgba(212, 212, 26, 0.308);
+}
+
+table tr th{
+    padding: 1%;
+}
+
+table tr td{
+    padding-left: 5px;
+    padding-right: 5px;
+}
